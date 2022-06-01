@@ -335,7 +335,7 @@ footer li:first-child {
 .email {
     margin: .625rem .625rem;
     border: .0625rem solid;
-    border-color: var(--blanco);
+    /* border-color: var(--blanco); */
     border-radius: .25rem;
     width: 18.75rem;
     height: 2.75rem;
@@ -503,7 +503,7 @@ footer li:first-child {
 .ds {
     display: block;
     margin: 0 auto;
-    padding: 80zpx 1.125rem;
+    padding: 5rem 1.125rem;
     background-image: url("../img/shop-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
