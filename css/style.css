@@ -135,7 +135,7 @@ footer {
 }
 
 /* * header **************************************************** */
-p#hidden {
+p#h_index, p#h_twiter,p#h_instagram,p#h_youtube,p#h_facebook {
     display: none;
 }
 
