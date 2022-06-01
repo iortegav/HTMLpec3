@@ -13,17 +13,6 @@
         grid-gap: 0px;
     }
 
-    .container_2 {
-        display: grid;
-        grid-template-areas:
-            "shl hea shr"
-            "val s2a var"
-            "new new new"
-            "vfl foo vfr";
-        grid-template-columns: 1fr 1140px 1fr;
-        /* grid-gap: 0px; */
-    }
-
     .val {
         grid-area: val;
         flex: 1;
@@ -144,13 +133,12 @@
 
     /* * 2a **************************** */
     .img_2a {
-        /* width: calc(45vw); */
         width: 262px;
     }
-.h2line{width: 1140px;}
-    /* .s2a h2 {
-        width: 1110px;
-    } */
+
+    .h2line {
+        width: 1140px;
+    }
 
     h2::before {
         margin: 0 16px 0 0;
@@ -163,7 +151,7 @@
     .s2a_2 dt {
         width: 552px;
     }
-    
+
 
 
     /* * 3a **************************** */
@@ -189,7 +177,6 @@
 
     .s4a_lit {
         width: 530px;
-        /* align-self: center; */
     }
 
     .s4a img {
@@ -230,16 +217,13 @@
         grid-area: asi;
         display: block;
         width: 271px;
-
         background-color: var(--blanco);
-
     }
 
     .chec_sel fieldset {
         border: 0px;
         display: flex;
         flex-direction: column;
-
     }
 
     .chec_sel legend {
@@ -268,7 +252,9 @@
         background-color: var(--blanco);
     }
 
-    .figures{row-gap: 32px;}
+    .figures {
+        row-gap: 32px;
+    }
 
     /* ! Pag4 -------------------------------------------------------- */
     /* ! Pag4 VIDEOS  ------------------------------------------------ */
@@ -289,7 +275,6 @@
     .s2a_2 dt {
         padding: 16px 16px;
         width: 542px;
-        /* font-size: calc(0.5rem + 2vw); */
     }
 
     .s2a_2 dd {
