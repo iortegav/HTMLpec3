@@ -9,8 +9,8 @@
             "val s4a var"
             "new new new"
             "vfl foo vfr";
-        grid-template-columns: 1fr 1140px 1fr;
-        grid-gap: 0px;
+        grid-template-columns: 1fr 71.25rem 1fr;
+        grid-gap: 0;
     }
 
     .val {
@@ -41,7 +41,7 @@
         grid-area: shl;
         flex: 1;
         background-color: var(--blanco);
-        box-shadow: 0px 4px 0px var(--sombra);
+        box-shadow: 0 .25rem 0 var(--sombra);
         z-index: 2;
     }
 
@@ -49,7 +49,7 @@
         grid-area: shr;
         flex: 1;
         background-color: var(--blanco);
-        box-shadow: 0px 4px 0px var(--sombra);
+        box-shadow: 0 .25rem 0 var(--sombra);
         z-index: 2;
     }
 
@@ -63,43 +63,43 @@
         grid-template-areas:
             "logo menu";
         grid-template-columns: 2fr 2fr;
-        grid-gap: 12px;
+        grid-gap: .75rem;
         align-items: center;
     }
 
     header img {
         float: left;
-        width: 261px;
-        height: 54px;
-        padding-left: 16px;
+        width: 16.3125rem;
+        height: 3.375rem;
+        padding-left: 1rem;
     }
 
     .h_menu ul {
         text-align: right;
-        padding-right: 16px;
+        padding-right: 1rem;
     }
 
     /* * footer ******************************** */
     footer {
-        padding-top: 32px;
+        padding-top: 2rem;
         display: grid;
         grid-template-areas:
             "social_men social_nav"
             "separador separador"
             "alumno_nom alumno_nav";
         grid-template-columns: 1fr 1fr;
-        grid-gap: 12px;
+        grid-gap: .75rem;
         align-items: baseline;
 
     }
 
     footer li:first-child {
-        padding-left: 16px;
+        padding-left: 1rem;
     }
 
     .social_men {
         text-align: left;
-        width: 250px;
+        width: 15.625rem;
     }
 
     .social_nav {
@@ -133,54 +133,54 @@
 
     /* * 2a **************************** */
     .img_2a {
-        width: 262px;
+        width: 16.375rem;
     }
 
     .h2line {
-        width: 1140px;
+        width: 71.25rem;
     }
 
     h2::before {
-        margin: 0 16px 0 0;
+        margin: 0 1rem 0 0;
     }
 
     h2::after {
-        margin: 0 0px 0 16px
+        margin: 0 0 0 1rem
     }
 
     .s2a_2 dt {
-        width: 552px;
+        width: 34.5rem;
     }
 
 
 
     /* * 3a **************************** */
     .ds {
-        width: 1110px;
+        width: 69.375rem;
     }
 
     .shop {
-        width: 680px;
+        width: 42.5rem;
 
     }
 
     /* * 4a **************************** */
     .sa4_lim {
-        gap: 28px;
+        gap: 1.75rem;
     }
 
     #sec_txt {
-        font-size: 18px;
-        padding-right: 60px;
-        line-height: 28px;
+        font-size: 1.125rem;
+        padding-right: 3.75rem;
+        line-height: 1.75rem;
     }
 
     .s4a_lit {
-        width: 530px;
+        width: 33.125rem;
     }
 
     .s4a img {
-        width: 556px;
+        width: 34.75rem;
     }
 
 
@@ -198,10 +198,10 @@
             "asi fi1"
             "asi pg1";
         grid-template-columns: 1fr;
-        grid-gap: 2px;
+        grid-gap: .125rem;
 
         justify-items: center;
-        padding-bottom: 16px;
+        padding-bottom: 1rem;
     }
 
     h2#noline {
@@ -216,12 +216,12 @@
     aside {
         grid-area: asi;
         display: block;
-        width: 271px;
+        width: 16.9375rem;
         background-color: var(--blanco);
     }
 
     .chec_sel fieldset {
-        border: 0px;
+        border: 0;
         display: flex;
         flex-direction: column;
     }
@@ -229,31 +229,30 @@
     .chec_sel legend {
         font-size: 1.125rem;
         text-transform: uppercase;
-        padding: 16px 16px;
-
+        padding: 1rem 1rem;
     }
 
     .chec_sel label {
-        padding: 4px 16px;
+        padding: .25rem 1rem;
     }
 
     .busca1 {
         display: block;
-        margin: 16px 16px;
-        border: 2px solid;
+        margin: 1rem 1rem;
+        border: .125rem solid;
         border-color: var(--principal);
-        border-radius: 4px;
-        width: 239px;
-        height: 50px;
-        padding-left: 42px;
+        border-radius: .25rem;
+        width: 14.9375rem;
+        height: 3.125rem;
+        padding-left: 2.625rem;
         font-family: Montserrat;
-        font-size: 16px;
+        font-size: 1rem;
         background: url("../img/icons/search.svg") no-repeat 10px;
         background-color: var(--blanco);
     }
 
     .figures {
-        row-gap: 32px;
+        row-gap: 2rem;
     }
 
     /* ! Pag4 -------------------------------------------------------- */
@@ -263,23 +262,23 @@
 
     .blanco {
         background-color: var(--blanco);
-        width: 542px;
-        height: calc(100% - 315px);
+        width: 33.875rem;
+        height: calc(100% - 19.6875rem);
     }
 
     .figures iframe {
-        width: 542px;
-        height: 315px;
+        width: 33.875rem;
+        height: 19.6875rem;
     }
 
     .s2a_2 dt {
-        padding: 16px 16px;
-        width: 542px;
+        padding: 1rem 1rem;
+        width: 33.875rem;
     }
 
     .s2a_2 dd {
-        width: 542px;
-        font-size: 18px;
-        line-height: 26px;
+        width: 33.875rem;
+        font-size: 1.125rem;
+        line-height: 1.625rem;
     }
 }
