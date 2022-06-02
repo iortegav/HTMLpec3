@@ -341,6 +341,7 @@ footer li:first-child {
     padding-left: .625rem;
     font-family: Montserrat;
     font-size: 1rem;
+    border-color: var(--principal); 
     background-color: var(--blanco);
     z-index: 1;
 }
@@ -409,7 +410,7 @@ footer li:first-child {
     padding-left: 2.625rem;
     font-family: Montserrat;
     font-size: 1rem;
-    background: url("../img/icons/search.svg") no-repeat .625rem;
+    background: url("../img/icons/search.svg") no-repeat 10px;
     background-color: var(--blanco);
 }
 
