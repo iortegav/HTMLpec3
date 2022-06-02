@@ -668,12 +668,14 @@ footer li:first-child {
     color: var(--principal);
     font-weight: 600;
 }
+.pag a:hover{
+    color: var(--principal-l);
+}
 
 a#pag_sel {
     color: var(--negro);
     font-weight: 400;
 }
-
 
 aside {
     display: none;
