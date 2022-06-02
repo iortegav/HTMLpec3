@@ -335,7 +335,6 @@ footer li:first-child {
 .email {
     margin: .625rem .625rem;
     border: .0625rem solid;
-    /* border-color: var(--blanco); */
     border-radius: .25rem;
     width: 18.75rem;
     height: 2.75rem;
