@@ -472,7 +472,7 @@ footer li:first-child {
 }
 
 
-.s2a figcaption, .s2a_2 figcaption, .s2a_2 dt {
+.s2a figcaption, .s2a_2 figcaption, .s2a_2 dt, .mydt {
     text-transform: uppercase;
     font-size: 1.125rem;
     width: 15.5rem;
