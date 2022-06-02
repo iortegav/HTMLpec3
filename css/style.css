@@ -694,7 +694,7 @@ aside {
     height: 19.6875rem;
 }
 
-.s2a_2 dt {
+.s2a_2 dt, .mydt {
     padding: 1rem .9375rem;
     text-transform: uppercase;
     font-size: 1.125rem;
@@ -702,7 +702,7 @@ aside {
     width: 32.625rem;
 }
 
-.s2a_2 dd {
+.s2a_2 dd, mydd {
     padding: 0 1rem 1rem;
     font-size: 1rem;
     line-height: 1.5rem;
