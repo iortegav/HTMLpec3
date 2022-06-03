@@ -116,7 +116,7 @@ h2#noline::before, h2#noline::after {
     "val s4a var"
     "new new new"
     "vfl foo vfr";
-    grid-template-columns: minmax(15px, 0.5fr) 16fr minmax(15px, 0.5fr);
+    grid-template-columns: minmax(.9375rem, 0.5fr) 16fr minmax(.9375rem, 0.5fr);
     grid-gap: 0;
 }
 
@@ -165,7 +165,7 @@ header img {
     text-align: center;
     margin-top: .5rem;
     margin-bottom: .5rem;
-    padding: 0;
+    /* padding: 0; */
     list-style-type: none;
 }
 
@@ -174,7 +174,7 @@ header img {
 }
 
 .h_menu a {
-    padding: 0 0 0 .5rem;
+    padding: 0 .5rem;
     color: var(--fondo-oscuro);
     text-decoration: none;
     font-size: 1rem;
@@ -376,7 +376,7 @@ footer li:first-child {
     padding: 4.25rem 0 1rem;
     text-align: center;
     font-size: calc(2.66rem + 1vw);
-    width: calc(408px + 10vw);
+    width: calc(25.5rem + 10vw);
 }
 
 .busca {
@@ -390,7 +390,7 @@ footer li:first-child {
     padding-left: 2.625rem;
     font-family: Montserrat;
     font-size: 1rem;
-    background: url("../img/icons/search.svg") no-repeat 10px;
+    background: url("../img/icons/search.svg") no-repeat .625rem;
     background-color: var(--blanco);
 }
 
@@ -419,7 +419,7 @@ footer li:first-child {
     grid-area: fi1;
     /* padding: 0 .9375rem; */
     
-    gap: 19px;
+    gap: 1.1875rem;
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
@@ -511,7 +511,7 @@ footer li:first-child {
 
 
 .shop h2 {
-    padding: 0 24px;
+    padding: 0 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -573,7 +573,7 @@ footer li:first-child {
 }
 
 .s4a_lit {
-    width: 522px;
+    width: 32.625rem;
 }
 
 .s4a_lit p {
@@ -741,7 +741,7 @@ aside {
 /* ? ----------------------------------------------------------------------------------------------- */
 /* ? DESKTOP --------------------------------------------------------------------------------------- */
 /* ? ----------------------------------------------------------------------------------------------- */
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 69.375rem) {
     .container {
         display: grid;
         grid-template-areas:
@@ -752,7 +752,7 @@ aside {
             "val s4a var"
             "new new new"
             "vfl foo vfr";
-        grid-template-columns: 1fr 1110px 1fr;
+        grid-template-columns: 1fr 69.375rem 1fr;
         grid-gap: 0;
     }
 
@@ -805,7 +805,7 @@ aside {
         display: grid;
         grid-template-areas:
             "logo menu";
-        grid-template-columns: minmax(1fr,555px) minmax(1fr,555px);
+        grid-template-columns: minmax(1fr,34.6875rem) minmax(1fr,34.6875rem);
         grid-gap: .75rem;
         align-items: center;
     }
@@ -830,7 +830,7 @@ aside {
             "social_men social_nav"
             "separador separador"
             "alumno_nom alumno_nav";
-        grid-template-columns: minmax(1fr,555px) minmax(1fr,555px);
+        grid-template-columns: minmax(1fr,34.6875rem) minmax(1fr,34.6875rem);
         grid-gap: .75rem;
         align-items: baseline;
 
@@ -878,15 +878,16 @@ aside {
 
     /* * 2a **************************** */
     .figures{
-        gap: 20px;
+        gap: 1.25rem;
+        row-gap: 2rem;
     }
     .img_2a {
-        width: 261px;
+        width: 16.3125rem;
         
     }
 
     .h2line {
-        width: 1110px;
+        width: 69.375rem;
     }
 
     h2::before {
@@ -900,7 +901,7 @@ aside {
 
     /* * 3a **************************** */
     .ds {
-        width: 1140px;
+        width: 69.375rem;
     }
 
     .shop {
@@ -920,11 +921,11 @@ aside {
     }
 
     .s4a_lit {
-        width: 525px;
+        width: 32.8125rem;
     }
 
     .s4a img {
-        width: 554px;
+        width: 34.625rem;
     }
 
 
@@ -963,7 +964,7 @@ aside {
         grid-area: asi;
         margin-right: 1rem;
         display: block;
-        width: 268px;
+        width: 16.75rem;
         background-color: var(--blanco);
     }
 
@@ -994,13 +995,10 @@ aside {
         padding-left: 2.625rem;
         font-family: Montserrat;
         font-size: 1rem;
-        background: url("../img/icons/search.svg") no-repeat 10px;
+        background: url("../img/icons/search.svg") no-repeat .625rem;
         background-color: var(--blanco);
     }
 
-    .figures {
-        row-gap: 2rem;
-    }
 
     /* ! Pag4 -------------------------------------------------------- */
     /* ! Pag4 VIDEOS  ------------------------------------------------ */
