@@ -117,7 +117,7 @@ h2#noline::before, h2#noline::after {
         "new"
         "foo";
     grid-template-columns: 1fr;
-    grid-gap: 0px;
+    grid-gap: 0;
 }
 
 
@@ -962,7 +962,7 @@ aside {
         width: 33.875rem;
     }
 
-    .s2a_2 dd, mydd {
+    .s2a_2 dd, .mydd {
         width: 33.875rem;
         font-size: 1.125rem;
         line-height: 1.625rem;
