@@ -211,60 +211,46 @@ footer {
     color: var(--blanco);
     background-color: var(--fondo-oscuro);
 }
-
-
 .social_men {
     grid-area: social_men;
     text-align: center;
 }
-
 .social_nav {
     padding-bottom: .5rem;
     grid-area: social_nav;
     text-align: center;
 }
-
 footer p {
     margin: .5rem 0;
     font-family: Montserrat;
     font-weight: 400;
     font-size: .9375rem;
 }
-
-
 footer li {
     display: inline-block;
     padding: 0 0 0 1rem;
 }
-
-
 footer a {
     color: var(--blanco);
     text-decoration: none;
 }
-
 footer li:first-child {
     padding-left: 0;
 }
-
 .social_nav a:hover {
     opacity: 0.7;
 }
-
 .separador {
     grid-area: separador;
     margin: 0 1rem .5rem;
 }
-
 .alumno_nom {
     grid-area: alumno_nom;
     text-align: center;
 }
-
 .alumno_nom p {
     font-size: .875rem;
 }
-
 .alumno_nav {
     grid-area: alumno_nav;
     margin: .25rem 0;
@@ -272,7 +258,6 @@ footer li:first-child {
     padding-bottom: .5rem;
     font-size: .875rem;
 }
-
 .alumno_nav a:hover {
     color: var(--principal);
 }
@@ -760,47 +745,38 @@ aside {
     /* * footer ******************************** */
     footer {
         padding-top: 2rem;
-        display: grid;
         grid-template-areas:
             "social_men social_nav"
             "separador separador"
             "alumno_nom alumno_nav";
         grid-template-columns: 34.6875rem 34.6875rem;
-        grid-gap: 0;
+        column-gap: 0;
+        row-gap: .75rem;
         align-items: baseline;
-
     }
-
     footer li:first-child {
         padding-left: 1rem;
     }
-
     .social_men {
         text-align: left;
         width: 15.625rem;
     }
-
     .social_nav {
         text-align: right;
     }
-    
     .social_nav nav {
         display: inline-block;
         vertical-align: middle;
     }
-
     .social_nav p {
         display: inline;
     }
-
     .separador {
         margin: 0;
     }
-
     .alumno_nom {
         text-align: left;
     }
-
     .alumno_nav {
         text-align: right;
     }
