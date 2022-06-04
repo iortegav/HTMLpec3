@@ -694,48 +694,36 @@ aside {
 
 .val {
     grid-area: val;
-    
     background-color: var(--fondo-body);
-    
 }
 
 .var {
     grid-area: var;
-    
     background-color: var(--fondo-body);
-    width: minmax(1rem, 1fr);
 }
 
 .vfl {
     grid-area: vfl;
-    
     background-color: var(--fondo-oscuro);
-    width: minmax(1rem, 1fr);
 }
 
 .vfr {
     grid-area: vfr;
-    
     background-color: var(--fondo-oscuro);
-    width: minmax(1rem, 1fr);
 }
 
 .shl {
     grid-area: shl;
-    
     background-color: var(--blanco);
     box-shadow: 0 .25rem 0 var(--sombra);
     z-index: 2;
-    width: minmax(1rem, 1fr);
 }
 
 .shr {
     grid-area: shr;
-    
     background-color: var(--blanco);
     box-shadow: 0 .25rem 0 var(--sombra);
     z-index: 2;
-    width: minmax(1rem, 1fr);
 }
 
 /* ? ----------------------------------------------------------------------------------------------- */
@@ -743,57 +731,7 @@ aside {
 /* ? ----------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 69.375rem) {
     .container {
-        display: grid;
-        grid-template-areas:
-            "shl hea shr"
-            "s1a s1a s1a"
-            "val s2a var"
-            "val s3a var"
-            "val s4a var"
-            "new new new"
-            "vfl foo vfr";
         grid-template-columns: 1fr 69.375rem 1fr;
-        grid-gap: 0;
-    }
-
-    .val {
-        grid-area: val;
-        flex: 1;
-        background-color: var(--fondo-body);
-    }
-
-    .var {
-        grid-area: var;
-        flex: 1;
-        background-color: var(--fondo-body);
-    }
-
-    .vfl {
-        grid-area: vfl;
-        flex: 1;
-        background-color: var(--fondo-oscuro);
-    }
-
-    .vfr {
-        grid-area: vfr;
-        flex: 1;
-        background-color: var(--fondo-oscuro);
-    }
-
-    .shl {
-        grid-area: shl;
-        flex: 1;
-        background-color: var(--blanco);
-        box-shadow: 0 .25rem 0 var(--sombra);
-        z-index: 2;
-    }
-
-    .shr {
-        grid-area: shr;
-        flex: 1;
-        background-color: var(--blanco);
-        box-shadow: 0 .25rem 0 var(--sombra);
-        z-index: 2;
     }
 
     /* ? ----------------------------------------------------------- */
