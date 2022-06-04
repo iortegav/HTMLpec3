@@ -728,7 +728,7 @@ aside {
 /* ? ----------------------------------------------------------------------------------------------- */
 /* ? DESKTOP --------------------------------------------------------------------------------------- */
 /* ? ----------------------------------------------------------------------------------------------- */
-@media screen and (min-width: 69.375rem) {
+@media screen and (min-width: 71.25rem) {
     .container {
         grid-template-columns: 1fr 69.375rem 1fr;
     }
@@ -741,8 +741,8 @@ aside {
     header {
         grid-template-areas:
             "logo menu";
-        grid-template-columns: minmax(1fr,34.6875rem) minmax(1fr,34.6875rem);
-        grid-gap: .75rem;
+        grid-template-columns: 34.6875rem 34.6875rem;
+        grid-gap: 0;
         align-items: center;
     }
 
@@ -765,8 +765,8 @@ aside {
             "social_men social_nav"
             "separador separador"
             "alumno_nom alumno_nav";
-        grid-template-columns: minmax(1fr,34.6875rem) minmax(1fr,34.6875rem);
-        grid-gap: .75rem;
+        grid-template-columns: 34.6875rem 34.6875rem;
+        grid-gap: 0;
         align-items: baseline;
 
     }
@@ -782,6 +782,11 @@ aside {
 
     .social_nav {
         text-align: right;
+    }
+    
+    .social_nav nav {
+        display: inline-block;
+        vertical-align: middle;
     }
 
     .social_nav p {
@@ -800,10 +805,7 @@ aside {
         text-align: right;
     }
 
-    .social_nav nav {
-        display: inline-block;
-        vertical-align: middle;
-    }
+    
 
     
 
