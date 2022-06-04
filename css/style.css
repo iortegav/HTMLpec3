@@ -198,7 +198,6 @@ a#sel {
 /* * footer ************************************************** */
 footer {
     grid-area: foo;
-    /* padding: 2rem 0 2.5rem; */
     padding: 2rem 0;
     display: grid;
     grid-template-areas:
