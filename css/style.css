@@ -106,6 +106,10 @@ h2#noline::before, h2#noline::after {
     flex: 0;
 }
 
+p#h_index, p#h_twiter, p#h_instagram, p#h_youtube, p#h_facebook {
+    display: none;
+}
+
 .container {
     display: grid;
     grid-template-areas:
@@ -127,9 +131,7 @@ h2#noline::before, h2#noline::after {
 
 
 /* * header **************************************************** */
-p#h_index, p#h_twiter, p#h_instagram, p#h_youtube, p#h_facebook {
-    display: none;
-}
+
 
 header {
     padding-bottom: .125rem;
@@ -191,6 +193,7 @@ a#sel {
     font-weight: 900;
     border-bottom: .1125rem dashed var(--fondo-oscuro);
 }
+
 
 /* * footer ************************************************** */
 footer {
@@ -736,7 +739,6 @@ aside {
 
     /* * header ******************************* */
     header {
-        display: grid;
         grid-template-areas:
             "logo menu";
         grid-template-columns: minmax(1fr,34.6875rem) minmax(1fr,34.6875rem);
@@ -748,7 +750,6 @@ aside {
         float: left;
         width: 16.3125rem;
         height: 3.375rem;
-        /* padding-left: 1rem; */
     }
 
     .h_menu ul {
