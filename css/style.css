@@ -458,21 +458,15 @@ footer li:first-child {
 
 
 /* * 3a ****************************************************** */
+
 .s3a {
     grid-area: s3a;
-    padding: 1rem 0;
-    /* padding: 1rem 1rem; */
-    background-color: var(--fondo-body)
-}
-.ds {
-    display: block;
-    margin: 0 auto;
-    /* padding: 5rem 1.125rem; */
     padding: 5rem 0;
     background-image: url("../img/shop-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .shop {
     display: block;
     margin: 0 auto;
@@ -486,30 +480,6 @@ footer li:first-child {
 .shop h2 {
     padding: 0 1.5rem;
 }
-
-/* .shop h2 {
-    padding: 0 1.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-} */
-
-/* .shop h2::before, .shop h2::after {
-    content: '';
-    flex: 1 1;
-    border-bottom: .1875rem solid;
-    margin: auto;
-} */
-
-/* .shop h2::before {
-    margin-right: .9375rem;
-}
-
-.shop h2::after {
-    margin-left: .9375rem;
-} */
 
 .shop p {
     font-size: 1rem;
@@ -533,6 +503,7 @@ footer li:first-child {
 .s4a {
     grid-area: s4a;
     background-color: var(--fondo-body);
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -802,9 +773,6 @@ aside {
 
 
     /* * 3a **************************** */
-    .ds {
-        width: 69.375rem;
-    }
 
     .shop {
         width: 42.5rem;
