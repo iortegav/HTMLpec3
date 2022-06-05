@@ -500,45 +500,32 @@ footer li:first-child {
 }
 
 /* * 4a ******************************************************* */
+
 .s4a {
     grid-area: s4a;
     background-color: var(--fondo-body);
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-}
-
-.sa4_lim {
-
     display: flex;
-    gap: 1.25rem;
+    gap: 1.75rem;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
-
-.s4a img {
-    width: 100%;
-}
-
 .s4a_lit {
     width: 32.625rem;
 }
-
 .s4a_lit p {
     font-size: 1rem;
     line-height: 1.5rem;
 }
-
 .s4a_lit p:first-child {
     text-transform: uppercase;
-    font-size: 1rem;
 }
-
 .s4a_lit h3 {
     padding-bottom: .25rem;
     font-size: 2.375rem;
 }
-
 .s4a button {
     border: .0625rem solid var(--principal);
     border-radius: .25rem;
@@ -547,11 +534,14 @@ footer li:first-child {
     background-color: var(--blanco);
     font-size: 1rem;
     font-weight: 400;
-    margin: 1.25rem 0;
+    margin: 1.25rem 0 0;
     width: 8.375rem;
     height: 3rem;
     font-family: Montserrat;
 }
+.s4a img {
+    width: 32.625rem;
+} 
 
 
 
@@ -785,12 +775,12 @@ aside {
     }
 
     /* * 4a **************************** */
-    .sa4_lim {
-        gap: 1.75rem;
+    .s4a {
+        /* gap: 1.75rem; */
         justify-content: space-between;
     }
 
-    #sec_txt {
+    p#sec_txt {
         font-size: 1.125rem;
         padding-right: 3.75rem;
         line-height: 1.75rem;
