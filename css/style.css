@@ -351,7 +351,7 @@ footer li:first-child {
     background-image: url("../img/knife-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: .5rem;
+    padding-bottom: 1.5rem;
 }
 
 .s1a h1 {
@@ -395,7 +395,7 @@ footer li:first-child {
     grid-template-columns: 1fr;
     grid-gap: .125rem;
     justify-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
 }
 .figures {
     grid-area: fi1;
@@ -503,8 +503,8 @@ footer li:first-child {
 .s4a {
     grid-area: s4a;
     background-color: var(--fondo-body);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .sa4_lim {
@@ -776,6 +776,12 @@ aside {
 
     .shop {
         width: 42.5rem;
+    }
+    .shop h2 {
+        margin: 0 4.375rem;
+    }
+    .shop p{
+        font-size: 1.125rem;
     }
 
     /* * 4a **************************** */
