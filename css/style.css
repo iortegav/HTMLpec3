@@ -338,6 +338,35 @@ footer li:first-child {
     font-family: Montserrat;
 }
 
+/* * Areas de justificación */
+.val {
+    grid-area: val;
+    background-color: var(--fondo-body);
+}
+.var {
+    grid-area: var;
+    background-color: var(--fondo-body);
+}
+.vfl {
+    grid-area: vfl;
+    background-color: var(--fondo-oscuro);
+}
+.vfr {
+    grid-area: vfr;
+    background-color: var(--fondo-oscuro);
+}
+.shl {
+    grid-area: shl;
+    background-color: var(--blanco);
+    box-shadow: 0 .25rem 0 var(--sombra);
+    z-index: 2;
+}
+.shr {
+    grid-area: shr;
+    background-color: var(--blanco);
+    box-shadow: 0 .25rem 0 var(--sombra);
+    z-index: 2;
+}
 
 
 /* ! Pag1 -------------------------------------------------------- */
@@ -621,39 +650,7 @@ aside {
     line-height: 1.5rem;
 }
 
-.val {
-    grid-area: val;
-    background-color: var(--fondo-body);
-}
 
-.var {
-    grid-area: var;
-    background-color: var(--fondo-body);
-}
-
-.vfl {
-    grid-area: vfl;
-    background-color: var(--fondo-oscuro);
-}
-
-.vfr {
-    grid-area: vfr;
-    background-color: var(--fondo-oscuro);
-}
-
-.shl {
-    grid-area: shl;
-    background-color: var(--blanco);
-    box-shadow: 0 .25rem 0 var(--sombra);
-    z-index: 2;
-}
-
-.shr {
-    grid-area: shr;
-    background-color: var(--blanco);
-    box-shadow: 0 .25rem 0 var(--sombra);
-    z-index: 2;
-}
 
 /* ? ----------------------------------------------------------------------------------------------- */
 /* ? DESKTOP --------------------------------------------------------------------------------------- */
