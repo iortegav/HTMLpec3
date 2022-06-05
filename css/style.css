@@ -363,7 +363,7 @@ footer li:first-child {
     width: calc(25.5rem + 10vw);
 }
 
-.busca {
+.busca, .busca1 {
     display: block;
     margin: .625rem auto;
     border: .125rem solid;
@@ -377,6 +377,7 @@ footer li:first-child {
     background: url("../img/icons/search.svg") no-repeat .625rem;
     background-color: var(--blanco);
 }
+
 
 .s1a form {
     padding-bottom: 4rem;
@@ -397,6 +398,7 @@ footer li:first-child {
     justify-items: center;
     padding-bottom: 2.5rem;
 }
+
 .figures {
     grid-area: fi1;
     /* padding: 0 .9375rem; */   
@@ -790,25 +792,21 @@ aside {
     /* ! Pag2 -------------------------------------------------------- */
 
     /* * 2a2 ******************************************************* */
+    
     .s2a_2 {
-        grid-area: s2a;
-        background-color: var(--fondo-body);
-        display: grid;
         grid-template-areas:
             "he2 he2"
             "asi fi1"
             "asi pg1";
         grid-template-columns: 1fr 3fr;
-        justify-items: center;
         padding-bottom: 3rem;
     }
+
+
     .br_cab {
         justify-self: flex-start;
         text-align: left;
         padding-left: 0;
-        font-size: 1.125rem;
-    }
-    .pag a{
         font-size: 1.125rem;
     }
     aside {
@@ -831,7 +829,7 @@ aside {
     .chec_sel label {
         padding: .25rem 1rem;
     }
-    .busca1 {
+    /* .busca1 {
         display: block;
         margin: 1rem 1rem;
         border: .125rem solid;
@@ -844,8 +842,11 @@ aside {
         font-size: 1rem;
         background: url("../img/icons/search.svg") no-repeat .625rem;
         background-color: var(--blanco);
+    } */
+    .busca1 {
+        margin: 1rem 1rem;
+        width: 14.9375rem;
     }
-
 
     /* ! Pag4 -------------------------------------------------------- */
     /* ! Pag4 VIDEOS  ------------------------------------------------ */
