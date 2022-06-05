@@ -384,7 +384,6 @@ footer li:first-child {
 
 /* * s2a ********************************************** */
 
-
 .s2a, .s2a_2 {
     grid-area: s2a;
     background-color: var(--fondo-body);
@@ -398,18 +397,15 @@ footer li:first-child {
     justify-items: center;
     padding-bottom: 1rem;
 }
-
 .figures {
     grid-area: fi1;
-    /* padding: 0 .9375rem; */
-    
+    /* padding: 0 .9375rem; */   
     gap: 1.1875rem;
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: left;
 }
-
 .h2line {
     margin: 2rem 0;
     width: 100%;
@@ -418,45 +414,42 @@ footer li:first-child {
 
 .s2a h2 {
     grid-area: he2;
+}
+
+.s2a h2, .shop h2  {
     /* padding: 0 .9375rem; */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     justify-items: center;
     text-align: center;
 }
-
-.s2a h2::before, .s2a h2::after {
+.s2a h2::before, .s2a h2::after,
+.shop h2::before, .shop h2::after {
     content: '';
     flex: 1 1;
     border-bottom: .1875rem solid;
     margin: auto;
 }
 
-.s2a h2::before {
+.s2a h2::before, .shop h2::before {
     margin-right: .9375rem;
 }
-
-.s2a h2::after {
+.s2a h2::after, .shop h2::after {
     margin-left: .9375rem;
 }
-
-
 .s2a figcaption, .s2a_2 figcaption {
     text-transform: uppercase;
     font-size: 1.125rem;
     width: 15.5rem;
 }
-
 .s2a a, .s2a_2 a {
     text-decoration: none;
     color: var(--fondo-oscuro);
 }
-
 .s2a a:hover, .s2a_2 a:hover {
     color: var(--principal);
 }
-
 .img_2a {
     width: 15.625rem;
 }
@@ -471,7 +464,6 @@ footer li:first-child {
     /* padding: 1rem 1rem; */
     background-color: var(--fondo-body)
 }
-
 .ds {
     display: block;
     margin: 0 auto;
@@ -481,7 +473,6 @@ footer li:first-child {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .shop {
     display: block;
     margin: 0 auto;
@@ -492,31 +483,33 @@ footer li:first-child {
     text-align: center;
 }
 
-
-
 .shop h2 {
+    padding: 0 1.5rem;
+}
+
+/* .shop h2 {
     padding: 0 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-items: center;
     text-align: center;
-}
+} */
 
-.shop h2::before, .shop h2::after {
+/* .shop h2::before, .shop h2::after {
     content: '';
     flex: 1 1;
     border-bottom: .1875rem solid;
     margin: auto;
-}
+} */
 
-.shop h2::before {
+/* .shop h2::before {
     margin-right: .9375rem;
 }
 
 .shop h2::after {
     margin-left: .9375rem;
-}
+} */
 
 .shop p {
     font-size: 1rem;
@@ -791,22 +784,18 @@ aside {
 
     /* * 2a **************************** */
     .figures{
-        gap: 1.25rem;
+        column-gap: 1.25rem;
         row-gap: 2rem;
     }
     .img_2a {
-        width: 16.3125rem;
-        
+        width: 16.3125rem;   
     }
-
     .h2line {
         width: 69.375rem;
     }
-
     h2::before {
         margin: 0 1rem 0 0;
     }
-
     h2::after {
         margin: 0 0 0 1rem
     }
