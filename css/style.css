@@ -636,7 +636,7 @@ aside {
     height: 19.6875rem;
 }
 
-.mydt {
+.vid_ti {
     padding: 1rem .9375rem;
     text-transform: uppercase;
     font-size: 1.125rem;
@@ -644,7 +644,7 @@ aside {
     width: 32.625rem;
 }
 
-.mydd {
+.vid_des {
     padding: 0 1rem 1rem;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -860,12 +860,12 @@ aside {
         width: 33.875rem;
     }
 
-    .mydt {
+    .vid_ti {
         padding: 1rem 1rem;
         width: 33.875rem;
     }
 
-    .mydd {
+    .vid_des {
         width: 33.875rem;
         font-size: 1.125rem;
         line-height: 1.625rem;
