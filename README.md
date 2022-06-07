@@ -1,4 +1,4 @@
-# Objeto**
+# Objeto
 
 Esta publicación resuelve la tercera prueba de evaluación continua de la asignatura HTML y CSS.
 
@@ -35,7 +35,8 @@ Todas las páginas se estructuran en base a una rejilla principal con las siguie
 - Área "**new**" destinada al newsletter (Todas las páginas)
 - Área "**foo**" destinada al pie de página (Todas las páginas)
 
-<img src="../img_md/grid.png">
+
+![](https://github.com/iortegav/pec3/img_md/grid.png)
 
 
 
