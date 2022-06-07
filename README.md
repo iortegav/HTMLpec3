@@ -36,7 +36,15 @@ Todas las páginas se estructuran en base a una rejilla principal con las siguie
 - Área "**foo**" destinada al pie de página (Todas las páginas)
 
 
-![](https://github.com/iortegav/pec3/img_md/grid.png)
+![pec3/grid.png at main · iortegav/pec3 (github.com)](https://github.com/iortegav/pec3/blob/main/img_md/grid.png)
+
+
+
+Siendo su estructura html genérica la siguiente: 
+
+![pec3/estructura.png at main · iortegav/pec3 (github.com)](https://github.com/iortegav/pec3/blob/main/img_md/estructura.png)
+
+
 
 
 
